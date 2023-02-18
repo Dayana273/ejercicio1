@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ejercicio1.Funciones_Matematicas">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Calculadora!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            
+
+            <Entry x:Name="txtnumero1" Placeholder="Ingrese el primer digito" Keyboard="Numeric"/>
+
+            <Entry  x:Name="txtnumero2" Placeholder="Ingrese el segundo digito" Keyboard="Numeric"/>
+            
+
+            <Button x:Name="txtresta" Text="resta" Clicked="txtresta_Clicked"/>
+            
+            <Button x:Name="txtsuma" Text="suma" Clicked="txtsuma_Clicked"/>
+            
+            <Button x:Name="txtdivision" Text="Division" Clicked="txtdividir_Clicked"/>
+            
+            <Button x:Name="txtmultiplicacion" Text="multiplicacion" Clicked="txtmultiplicar_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
